@@ -64,7 +64,7 @@ cabe aclarar que unicamente o radio de cada sector é proporcional ao número de
 valores atopados nesa categoría (a superficie do sector aumenta desproporcionadamente
 co radio, non sendo por tanto representativa).
 
-<Figura 1. Histograma de orientación.>
+<Figura 1. Histograma de orientación.>  
 
 Asemade, para as edificacións que servían de **soporte** das lacenas calculáronse
 as frecuencias absolutas e relativas das variables tipo de **soporte** (tipo de edificación),
@@ -81,7 +81,7 @@ A frecuencia absoluta das lacenas aparece representada nun cartograma onde se
 agruparon en función das coordenadas xeográficas do seu soporte dentro dunha
 malla de 10 Km de lado subdividida en 3x3 cuadrículas de tamaño regular.
 
-<Figura 2. Cartograma de frecuencias.>
+<Figura 2. Cartograma de frecuencias.>  
 
 ## Introdución
 
@@ -134,7 +134,7 @@ forzou a construción de abeiros que neutralizaran no posible o azoute de
 borrascas e vendavais; así pois, calquera que sexa a variedade dos apiarios terán
 as colmeas, na maioría dos casos, nalgún acubillo de pedra.
 
-<Táboa 1. Apiarios na Costa da Morte.>
+<Táboa 1. Apiarios na Costa da Morte.>  
 
 **Alvarizas cerradas.** Teñen como principal característica seren de planta máis ou
 menos cadrada e as abellas protexidas baixo espazos cubertos por laxes de pedra
@@ -189,7 +189,7 @@ ter as abellas xa fala Columela (60 d.C.): “Tamén se escavaban, incluso no no
 tempo, moradas para as abellas nas mesmas paredes da casería [...]”. Unha cumprida
 descrición faina o canteiro José Cernadas Sande (2010: 111):
 
-> “Consistían nun habitáculo de forma cuadrangular máis alto que ancho, arredor
+>   “Consistían nun habitáculo de forma cuadrangular máis alto que ancho, arredor
 de 50 ou 60 cm de alto e uns 40 ou 50 cm de ancho, máis de fondo (sic).
 Estaban formadas por unha soleira que ía de dentro a fóra, no exterior facíaselle
 unha pequena repisa saínte, ás veces moldurada, na cal se pousaban as
@@ -206,26 +206,26 @@ Próximos ás lacenas están, entre outros, os _hornillos_ cántabros que descri
 de Cos (2009) ou os _hornos_ e _armarios_ que se atopan na depresión do río Ebro e
 que Robert Chevet (2010) chama por xunto, _ruchers construits a façade fermée_.
 
-<Foto 1. Alvariza de Lucas, Vimianzo>
-<Foto 3a. Grixoa, Vimianzo>
-<Foto 4. Monte Faro, Vimianzo>
-<Foto 6a. Nichos, Cee>
-<Foto 2. Alvariza de Sansobre, Vimianzo>
-<Foto 3b. Muíño de Louredo, Dumbría>
-<Foto 5. Pendello, Malpica>
-<Foto 6b. Nicho, Mazaricos>
+<Foto 1. Alvariza de Lucas, Vimianzo>  
+<Foto 3a. Grixoa, Vimianzo>  
+<Foto 4. Monte Faro, Vimianzo>  
+<Foto 6a. Nichos, Cee>  
+<Foto 2. Alvariza de Sansobre, Vimianzo>  
+<Foto 3b. Muíño de Louredo, Dumbría>  
+<Foto 5. Pendello, Malpica>  
+<Foto 6b. Nicho, Mazaricos>  
 
 ## Afondando nas lacenas
 
-<Táboa 2. Frecuencias relativas das variables>
+<Táboa 2. Frecuencias relativas das variables>  
 
 As 1.243 lacenas analizadas encóntranse en 670 soportes repartidos en 14 concellos
 da Costa da Morte cunha distribución moi desigual, tendo a máxima concentración
 no municipio de Dumbría e a mínima no de Malpica de Bergantiños.
 
-<Foto 7. Casa das abellas, Vimianzo>
-<Foto 8a. Exterior de lacena><Foto 8b. Interior de lacena>
-<Táboa 3. Distribución das lacenas nos concellos da Costa da Morte.>
+<Foto 7. Casa das abellas, Vimianzo>  
+<Foto 8a. Exterior de lacena>  <Foto 8b. Interior de lacena>  
+<Táboa 3. Distribución das lacenas nos concellos da Costa da Morte.>  
 
 Para completar a descrición, cabe engadir
 que a maioría das lacenas están mirando
@@ -259,13 +259,13 @@ Sinalar tamén que o
 número de lacenas por soporte é variable podendo haber dende unha ata seis ou
 máis por fachada, situadas a calquera altura, dende o primeiro ata o último andar.
 
-Foto 11. Casa en Morquintián, Muxía
-Foto 13. Muíño no Fieiro, Carnota
-Foto 15. Cabana en Campos, Muxía
-Foto 12. Corte en Guisamonde, Muxía
-Foto 14. Hórreo no Couto, Ponteceso
-Foto 16. Muro en Corcubión
-Foto 17. Pombal en Señores, Muxía
+<Foto 11. Casa en Morquintián, Muxía>  
+<Foto 13. Muíño no Fieiro, Carnota>  
+<Foto 15. Cabana en Campos, Muxía>  
+<Foto 12. Corte en Guisamonde, Muxía>  
+<Foto 14. Hórreo no Couto, Ponteceso>  
+<Foto 16. Muro en Corcubión>  
+<Foto 17. Pombal en Señores, Muxía>  
 
 A lousa vertical que a pecha polo exterior, **fronte**, adoita ser lisa confundíndose
 co resto da fachada (foto 18 a), ou aparece salientada exenta do recebo (foto 18
@@ -282,16 +282,16 @@ exterior é sinxelo mais ás veces presenta unha pequena ampliación na entrada
 a xeito de vestíbulo e con menor frecuencia está enmarcada por unha moldura
 (foto 22 ).
 
-Foto 18a. Frontes lisas
-Foto 18b. Frontes salientadas
-Foto 18c. Frontes ornadas
-Foto 19. Topetes
-Foto 20. Abeiros laterais
-Foto 21a. Pousadoiros informes e lisos
-Foto 21b. Pousadoiros moldurados
-Foto 21c. Pousadoiros antropomorfos
-Foto 21d. Pousadoiro ausente
-Foto 22. Diferentes tipos de piqueiras
+<Foto 18a. Frontes lisas>  
+<Foto 18b. Frontes salientadas>  
+<Foto 18c. Frontes ornadas>  
+<Foto 19. Topetes>  
+<Foto 20. Abeiros laterais>  
+<Foto 21a. Pousadoiros informes e lisos>  
+<Foto 21b. Pousadoiros moldurados>  
+<Foto 21c. Pousadoiros antropomorfos>  
+<Foto 21d. Pousadoiro ausente>  
+<Foto 22. Diferentes tipos de piqueiras>  
 
 No que concirne á **altura** o criterio seguido para considerar alta ou baixa unha
 lacena, provén dos límites que sinala a lexislación galega para asentamentos apícolas
@@ -326,17 +326,17 @@ Arquitectos Técnicos.
 no concello de Carnota. Noia: Editorial Toxosoutos.
 - CHEVET, R. (2010) Les murs à abeille dans l´Europe Occidentale. ACAFA nº 3.
 Associaçâo do Alto Tejo.  
-http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf  
-http://www.altotejo.org/acafa/docsn3/Les_Murs_a_Abeille_dans_L_Europe_Occidentale.pdf  
+<http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf>  
+<http://www.altotejo.org/acafa/docsn3/Les_Murs_a_Abeille_dans_L_Europe_Occidentale.pdf>  
 [Consulta en liña: 27/04/2018].
-- CHEVET, R. (2010) Ruchers dans la Vallée de L´Ebre. ACAFA nº 3. Associaçâo do Alto Tejo. 
-http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf 
+- CHEVET, R. (2010) Ruchers dans la Vallée de L´Ebre. ACAFA nº 3. Associaçâo do Alto Tejo.  
+<http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf>  
 [Consulta en liña: 30/04/2018].
 - CRANE, E. (1983) The Archaeology of Beekeeping. Nova York: Cornell University
 Press.
 - DÍAZ y OTERO, E. e NAVES CIENFUEGOS, F. J. Los colmenares tradicionales del
 Noroeste de España. ACAFA nº 3. Associaçâo do Alto Tejo.  
-http://www.altotejo.org/acafa/docsn3/Colmenares_Tradicionales_do_NO_de_Espanha.pdf  
+<http://www.altotejo.org/acafa/docsn3/Colmenares_Tradicionales_do_NO_de_Espanha.pdf>  
 [Consulta en liña: 30/04/2018].
 - DOG nº 126 Decreto 339/2009.
 - GONZÁLEZ PÉREZ, C. (1989) A apicultura tradicional no concello de Navia de
@@ -344,11 +344,11 @@ Suarna (Lugo). Lugo: Deputación Provincial de Lugo.
 - HENRIQUES, F., CANINAS, J.C., LOBATO CHAMBINO, M., TEODORO PRATA,
 J., GARDETE, J.J. (2010) Os muros-apiários da Regiâo de Castelo Branco e zona
 envolvente. ACAFA nº 3. Associaçâo do Alto Tejo.  
-http://www.altotejo.org/acafa/docsn3/Muros_da_Regiao_de_Castelo_Branco.pdf  
+<http://www.altotejo.org/acafa/docsn3/Muros_da_Regiao_de_Castelo_Branco.pdf>  
 [Consulta en liña: 30/04/2018].
 - LADRA, L. e VIDAL, X. (2010) Muros apiários na Galiza Interior: os alvares do
 Caurel. ACAFA nº 3. Associaçâo do Alto Tejo.  
-http://www.altotejo.org/acafa/docsn3/Muros_de_Seceda_do_Caurel.pdf  
+<http://www.altotejo.org/acafa/docsn3/Muros_de_Seceda_do_Caurel.pdf>  
 [Consulta en liña: 06/03/2017].
 - MODERATO COLUMELA, L.J. (1824) Los doce libros de Agricultura. Libro Noveno.
 II De las abejas. Traducidos al castellano por D. Juan María Álvarez de Sotomayor
@@ -356,7 +356,7 @@ y Rubio. Madrid.
 - RIVAS QUINTAS, E. (2009) Mel e Cera. O Aceite. Editor: Eligio Rivas Quintas,
 C.M. Ourense.
 - ROUSSEL, G. (2010) Les enclos à abeilles. ACAFA nº 3. Associaçâo do Alto Tejo.  
-http://www.altotejo.org/acafa/docsn3/Les_Enclos_a_Abeilles.pdf  
+<http://www.altotejo.org/acafa/docsn3/Les_Enclos_a_Abeilles.pdf>  
 [Consulta en liña: 29/04/2018].
 - VALCUENDE DE COS, C.J. (2009) Apicultura tradicional y mieles de Cantabria.
 Torrelavega: Cantabria Tradicional, SL.
