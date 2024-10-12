@@ -219,35 +219,30 @@ Próximos ás lacenas están, entre outros, os _hornillos_ cántabros que descri
 de Cos (2009) ou os _hornos_ e _armarios_ que se atopan na depresión do río Ebro e
 que Robert Chevet (2010) chama por xunto, _ruchers construits a façade fermée_.
 
-|--|--|
-|![Foto 1. Alvariza de Lucas, Vimianzo](adra_img/F01.jpg)  
-Foto 1. Alvariza de Lucas, Vimianzo|![Foto 2. Alvariza de Sansobre, Vimianzo](adra_img/F02.jpg)  
-Foto 2. Alvariza de Sansobre, Vimianzo|
-|--|--|
+![Foto 1. Alvariza de Lucas, Vimianzo](adra_img/F01.jpg)  
+Foto 1. Alvariza de Lucas, Vimianzo
 
-</td></tr>
-<tr><td>
+![Foto 2. Alvariza de Sansobre, Vimianzo](adra_img/F02.jpg)  
+Foto 2. Alvariza de Sansobre, Vimianzo
+
 ![Foto 3a. Grixoa, Vimianzo](adra_img/F03a.jpg)  
 Foto 3a. Grixoa, Vimianzo
-</td><td>
+
 ![Foto 3b. Muíño de Louredo, Dumbría](adra_img/F03b.jpg)  
 Foto 3b. Muíño de Louredo, Dumbría
-</td></tr>
-<tr><td>
+
 ![Foto 4. Monte Faro, Vimianzo](adra_img/F04.jpg)  
 Foto 4. Monte Faro, Vimianzo
-</td><td>
+
 ![Foto 5. Pendello, Malpica](adra_img/F05.jpg)  
 Foto 5. Pendello, Malpica
-</td></tr>
-<tr><td>
+
 ![Foto 6a. Nichos, Cee](adra_img/F06a.jpg)  
 Foto 6a. Nichos, Cee
-</td><td>
+
 ![Foto 6b. Nicho, Mazaricos](adra_img/F06b.jpg)  
 Foto 6b. Nicho, Mazaricos
-</td></tr>
-</table>
+
 
 ## Afondando nas lacenas
 
@@ -299,29 +294,25 @@ Sinalar tamén que o
 número de lacenas por soporte é variable podendo haber dende unha ata seis ou
 máis por fachada, situadas a calquera altura, dende o primeiro ata o último andar.
 
-<table>
-<tr><td>
+
 ![Foto 11. Casa en Morquintián, Muxía](adra_img/F11.jpg)  
 Foto 11. Casa en Morquintián, Muxía
-</td><td>
+
 ![Foto 12. Corte en Guisamonde, Muxía](adra_img/F12.jpg)  
 Foto 12. Corte en Guisamonde, Muxía
-</td></tr>
-<tr><td>
+
 ![Foto 13. Muíño no Fieiro, Carnota](adra_img/F13.jpg)  
 Foto 13. Muíño no Fieiro, Carnota
-</td><td>
+
 ![Foto 14. Hórreo no Couto, Ponteceso](adra_img/F14.jpg)  
 Foto 14. Hórreo no Couto, Ponteceso
-</td></tr>
-<tr><td>
+
 ![Foto 15. Cabana en Campos, Muxía](adra_img/F15.jpg)  
 Foto 15. Cabana en Campos, Muxía
-</td><td>
+
 ![Foto 16. Muro en Corcubión](adra_img/F16.jpg)  
 Foto 16. Muro en Corcubión
-</td></tr>
-</table>
+
 
 ![Foto 17. Pombal en Señores, Muxía](adra_img/F17.jpg)  
 Foto 17. Pombal en Señores, Muxía
