@@ -1,14 +1,14 @@
 # Apiarios na Costa da Morte: as lacenas
 
-## Xesús García Devesa, David García San León e [Manuel Vilar Álvarez](https://alvarelloseditora.gal/autor/manuel-vilar-alvarez/)
+#### Xesús García Devesa, David García San León e [Manuel Vilar Álvarez](https://alvarelloseditora.gal/autor/manuel-vilar-alvarez/)
 
 <!-- 
 https://orcid.org/0009-0003-6441-4325
 https://orcid.org/0000-0001-9434-9235
 https://orcid.org/0000-0002-3636-1065
 -->
-[Adra (2019), nº 14: 47-64](https://www.museodopobo.gal/sites/default/files/2022-07/adra14web_1.pdf#page=47)  
-[Revista dos socios e socias do Museo do Pobo Galego. Santiago de Compostela](https://www.museodopobo.gal/es/adra)
+[_Adra_ (2019), nº 14: 47-64](https://www.museodopobo.gal/sites/default/files/2022-07/adra14web_1.pdf#page=47)  
+([Revista dos socios e socias do Museo do Pobo Galego. Santiago de Compostela](https://www.museodopobo.gal/es/adra))
 
 > [“_No país das abellas todo está listo para a chegada da noite_”](https://www.quepasanacosta.gal/opinion/miguel-anxo-mato-fondo/o-pais-das-abellas/20220404132633135050.html) 
 > [M. Mato Fondo](https://www.facebook.com/miguel.fondo)
