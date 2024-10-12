@@ -2,8 +2,8 @@
 
 Xesús García Devesa, David García San León e Manuel Vilar Álvarez
 
-“_No país das abellas todo está listo para a chegada da noite_”  
-M. Mato Fondo
+[“_No país das abellas todo está listo para a chegada da noite_” 
+M. Mato Fondo](https://www.quepasanacosta.gal/opinion/miguel-anxo-mato-fondo/o-pais-das-abellas/20220404132633135050.htm)
 
 **RESUMO:**
 
@@ -216,6 +216,11 @@ que Robert Chevet (2010) chama por xunto, _ruchers construits a façade fermée_
 <Foto 6b. Nicho, Mazaricos>  
 
 ## Afondando nas lacenas
+
+<table>
+<thead></thead>
+<tr><td rowspan=8>Soporte</td></tr>
+</table>
 
 <Táboa 2. Frecuencias relativas das variables>  
 
