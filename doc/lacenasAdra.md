@@ -326,38 +326,38 @@ Arquitectos Técnicos.
 no concello de Carnota. Noia: Editorial Toxosoutos.
 - CHEVET, R. (2010) Les murs à abeille dans l´Europe Occidentale. ACAFA nº 3.
 Associaçâo do Alto Tejo.  
-<http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf>  
-<http://www.altotejo.org/acafa/docsn3/Les_Murs_a_Abeille_dans_L_Europe_Occidentale.pdf>  
-[Consulta en liña: 27/04/2018].
+  <http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf>  
+  <http://www.altotejo.org/acafa/docsn3/Les_Murs_a_Abeille_dans_L_Europe_Occidentale.pdf>  
+  [Consulta en liña: 27/04/2018].
 - CHEVET, R. (2010) Ruchers dans la Vallée de L´Ebre. ACAFA nº 3. Associaçâo do Alto Tejo.  
-<http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf>  
-[Consulta en liña: 30/04/2018].
+  <http://www.altotejo.org/acafa/docsn3/Ruchers_dans_la_Vallee_de_l_Ebre.pdf>  
+  [Consulta en liña: 30/04/2018].
 - CRANE, E. (1983) The Archaeology of Beekeeping. Nova York: Cornell University
 Press.
 - DÍAZ y OTERO, E. e NAVES CIENFUEGOS, F. J. Los colmenares tradicionales del
 Noroeste de España. ACAFA nº 3. Associaçâo do Alto Tejo.  
-<http://www.altotejo.org/acafa/docsn3/Colmenares_Tradicionales_do_NO_de_Espanha.pdf>  
-[Consulta en liña: 30/04/2018].
+  <http://www.altotejo.org/acafa/docsn3/Colmenares_Tradicionales_do_NO_de_Espanha.pdf>  
+  [Consulta en liña: 30/04/2018].
 - DOG nº 126 Decreto 339/2009.
 - GONZÁLEZ PÉREZ, C. (1989) A apicultura tradicional no concello de Navia de
 Suarna (Lugo). Lugo: Deputación Provincial de Lugo.
 - HENRIQUES, F., CANINAS, J.C., LOBATO CHAMBINO, M., TEODORO PRATA,
 J., GARDETE, J.J. (2010) Os muros-apiários da Regiâo de Castelo Branco e zona
 envolvente. ACAFA nº 3. Associaçâo do Alto Tejo.  
-<http://www.altotejo.org/acafa/docsn3/Muros_da_Regiao_de_Castelo_Branco.pdf>  
-[Consulta en liña: 30/04/2018].
+  <http://www.altotejo.org/acafa/docsn3/Muros_da_Regiao_de_Castelo_Branco.pdf>  
+  [Consulta en liña: 30/04/2018].
 - LADRA, L. e VIDAL, X. (2010) Muros apiários na Galiza Interior: os alvares do
 Caurel. ACAFA nº 3. Associaçâo do Alto Tejo.  
-<http://www.altotejo.org/acafa/docsn3/Muros_de_Seceda_do_Caurel.pdf>  
-[Consulta en liña: 06/03/2017].
+  <http://www.altotejo.org/acafa/docsn3/Muros_de_Seceda_do_Caurel.pdf>  
+  [Consulta en liña: 06/03/2017].
 - MODERATO COLUMELA, L.J. (1824) Los doce libros de Agricultura. Libro Noveno.
 II De las abejas. Traducidos al castellano por D. Juan María Álvarez de Sotomayor
 y Rubio. Madrid.
 - RIVAS QUINTAS, E. (2009) Mel e Cera. O Aceite. Editor: Eligio Rivas Quintas,
 C.M. Ourense.
 - ROUSSEL, G. (2010) Les enclos à abeilles. ACAFA nº 3. Associaçâo do Alto Tejo.  
-<http://www.altotejo.org/acafa/docsn3/Les_Enclos_a_Abeilles.pdf>  
-[Consulta en liña: 29/04/2018].
+  <http://www.altotejo.org/acafa/docsn3/Les_Enclos_a_Abeilles.pdf>  
+  [Consulta en liña: 29/04/2018].
 - VALCUENDE DE COS, C.J. (2009) Apicultura tradicional y mieles de Cantabria.
 Torrelavega: Cantabria Tradicional, SL.
 - VIRGILIO. (2012) Geórgicas. Edición bilingüe de Jaime Velázquez. Madrid: Ediciones
