@@ -75,7 +75,8 @@ cabe aclarar que unicamente o radio de cada sector é proporcional ao número de
 valores atopados nesa categoría (a superficie do sector aumenta desproporcionadamente
 co radio, non sendo por tanto representativa).
 
-[Figura 1. Histograma de orientación.](adra_img/Fig01.jpg)  
+![Figura 1. Histograma de orientación.](adra_img/Fig01.jpg)  
+Figura 1. Histograma de orientación.
 
 Asemade, para as edificacións que servían de **soporte** das lacenas calculáronse
 as frecuencias absolutas e relativas das variables tipo de **soporte** (tipo de edificación),
@@ -92,7 +93,8 @@ A frecuencia absoluta das lacenas aparece representada nun cartograma onde se
 agruparon en función das coordenadas xeográficas do seu soporte dentro dunha
 malla de 10 Km de lado subdividida en 3x3 cuadrículas de tamaño regular.
 
-<Figura 2. Cartograma de frecuencias.>  
+![Figura 2. Cartograma de frecuencias.](adra_img/Fig01.jpg)  
+Figura 2. Cartograma de frecuencias.
 
 ## Introdución
 
