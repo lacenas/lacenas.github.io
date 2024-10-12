@@ -288,41 +288,41 @@ da edificación ou a falta de interlocutores
 aos que inquirir e ata houbo casos nos
 que non se decataran delas e/ou descoñecían
 o seu significado. O grupo **casa**
-abarca igrexas, pazos e vivendas; no grupo **cabanel** incluímos os sobeiros ou as
-sobeiras e cabanas; no
-grupo **propio** están as
-construcións específicas
-para abellas, coñecidas
-como casa das
-abellas e aquelas alvarizas
-que teñan algunha
-lacena nas paredes
-do cerrume; o grupo
-**muro** refírese ao peche
-dos eidos. Complétanse
-os grupos cos **muíños,
-hórreos e cortes**.
+abarca igrexas, pazos e vivendas; no grupo **cabanel** 
+incluímos os sobeiros ou as sobeiras e cabanas; no
+grupo **propio** están as construcións específicas
+para abellas, coñecidas como casa das
+abellas e aquelas alvarizas que teñan algunha
+lacena nas paredes do cerrume; o grupo
+**muro** refírese ao peche dos eidos. Complétanse
+os grupos cos **muíños, hórreos e cortes**.
 Sinalar tamén que o
 número de lacenas por soporte é variable podendo haber dende unha ata seis ou
 máis por fachada, situadas a calquera altura, dende o primeiro ata o último andar.
 
+<table>
+<tr><td>
 ![Foto 11. Casa en Morquintián, Muxía](adra_img/F11.jpg)  
 Foto 11. Casa en Morquintián, Muxía
-
-![Foto 13. Muíño no Fieiro, Carnota](adra_img/F13.jpg)  
-Foto 13. Muíño no Fieiro, Carnota
-
-![Foto 15. Cabana en Campos, Muxía](adra_img/F15.jpg)  
-Foto 15. Cabana en Campos, Muxía
-
+</td><td>
 ![Foto 12. Corte en Guisamonde, Muxía](adra_img/F12.jpg)  
 Foto 12. Corte en Guisamonde, Muxía
-
+</td></tr>
+<tr><td>
+![Foto 13. Muíño no Fieiro, Carnota](adra_img/F13.jpg)  
+Foto 13. Muíño no Fieiro, Carnota
+</td><td>
 ![Foto 14. Hórreo no Couto, Ponteceso](adra_img/F14.jpg)  
 Foto 14. Hórreo no Couto, Ponteceso
-
+</td></tr>
+<tr><td>
+![Foto 15. Cabana en Campos, Muxía](adra_img/F15.jpg)  
+Foto 15. Cabana en Campos, Muxía
+</td><td>
 ![Foto 16. Muro en Corcubión](adra_img/F16.jpg)  
 Foto 16. Muro en Corcubión
+</td></tr>
+</table>
 
 ![Foto 17. Pombal en Señores, Muxía](adra_img/F17.jpg)  
 Foto 17. Pombal en Señores, Muxía
