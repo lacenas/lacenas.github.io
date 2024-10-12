@@ -93,7 +93,7 @@ A frecuencia absoluta das lacenas aparece representada nun cartograma onde se
 agruparon en función das coordenadas xeográficas do seu soporte dentro dunha
 malla de 10 Km de lado subdividida en 3x3 cuadrículas de tamaño regular.
 
-![Figura 2. Cartograma de frecuencias.](adra_img/Fig01.jpg)  
+![Figura 2. Cartograma de frecuencias.](adra_img/Fig02.jpg)  
 Figura 2. Cartograma de frecuencias.
 
 ## Introdución
@@ -219,14 +219,29 @@ Próximos ás lacenas están, entre outros, os _hornillos_ cántabros que descri
 de Cos (2009) ou os _hornos_ e _armarios_ que se atopan na depresión do río Ebro e
 que Robert Chevet (2010) chama por xunto, _ruchers construits a façade fermée_.
 
-<Foto 1. Alvariza de Lucas, Vimianzo>  
-<Foto 3a. Grixoa, Vimianzo>  
-<Foto 4. Monte Faro, Vimianzo>  
-<Foto 6a. Nichos, Cee>  
-<Foto 2. Alvariza de Sansobre, Vimianzo>  
-<Foto 3b. Muíño de Louredo, Dumbría>  
-<Foto 5. Pendello, Malpica>  
-<Foto 6b. Nicho, Mazaricos>  
+![Foto 1. Alvariza de Lucas, Vimianzo](adra_img/Fig01.jpg)  
+Foto 1. Alvariza de Lucas, Vimianzo
+
+![Foto 3a. Grixoa, Vimianzo](adra_img/Fig03a.jpg)  
+Foto 3a. Grixoa, Vimianzo
+
+![Foto 4. Monte Faro, Vimianzo](adra_img/Fig04.jpg)  
+Foto 4. Monte Faro, Vimianzo
+
+![Foto 6a. Nichos, Cee](adra_img/Fig06a.jpg)  
+Foto 6a. Nichos, Cee
+
+![Foto 2. Alvariza de Sansobre, Vimianzo](adra_img/Fig02.jpg)  
+Foto 2. Alvariza de Sansobre, Vimianzo
+
+![Foto 3b. Muíño de Louredo, Dumbría](adra_img/Fig03b.jpg)  
+Foto 3b. Muíño de Louredo, Dumbría
+
+![Foto 5. Pendello, Malpica](adra_img/Fig05.jpg)  
+Foto 5. Pendello, Malpica
+
+![Foto 6b. Nicho, Mazaricos](adra_img/Fig06b.jpg)  
+Foto 6b. Nicho, Mazaricos
 
 ## Afondando nas lacenas
 
@@ -241,8 +256,15 @@ As 1.243 lacenas analizadas encóntranse en 670 soportes repartidos en 14 concel
 da Costa da Morte cunha distribución moi desigual, tendo a máxima concentración
 no municipio de Dumbría e a mínima no de Malpica de Bergantiños.
 
-<Foto 7. Casa das abellas, Vimianzo>  
-<Foto 8a. Exterior de lacena>  <Foto 8b. Interior de lacena>  
+![Foto 7. Casa das abellas, Vimianzo](adra_img/Fig7.jpg)  
+Foto 7. Casa das abellas, Vimianzo
+
+![Foto 8a. Exterior de lacena](adra_img/Fig08a.jpg)  
+Foto 8a. Exterior de lacena
+
+![Foto 8b. Interior de lacena](adra_img/Fig08b.jpg)  
+Foto 8b. Interior de lacena
+
 <Táboa 3. Distribución das lacenas nos concellos da Costa da Morte.>  
 
 Para completar a descrición, cabe engadir
@@ -277,13 +299,26 @@ Sinalar tamén que o
 número de lacenas por soporte é variable podendo haber dende unha ata seis ou
 máis por fachada, situadas a calquera altura, dende o primeiro ata o último andar.
 
-<Foto 11. Casa en Morquintián, Muxía>  
-<Foto 13. Muíño no Fieiro, Carnota>  
-<Foto 15. Cabana en Campos, Muxía>  
-<Foto 12. Corte en Guisamonde, Muxía>  
-<Foto 14. Hórreo no Couto, Ponteceso>  
-<Foto 16. Muro en Corcubión>  
-<Foto 17. Pombal en Señores, Muxía>  
+![Foto 11. Casa en Morquintián, Muxía](adra_img/Fig11.jpg)  
+Foto 11. Casa en Morquintián, Muxía
+
+![Foto 13. Muíño no Fieiro, Carnota](adra_img/Fig13.jpg)  
+Foto 13. Muíño no Fieiro, Carnota
+
+![Foto 15. Cabana en Campos, Muxía](adra_img/Fig15.jpg)  
+Foto 15. Cabana en Campos, Muxía
+
+![Foto 12. Corte en Guisamonde, Muxía](adra_img/Fig12.jpg)  
+Foto 12. Corte en Guisamonde, Muxía
+
+![Foto 14. Hórreo no Couto, Ponteceso](adra_img/Fig14.jpg)  
+Foto 14. Hórreo no Couto, Ponteceso
+
+![Foto 16. Muro en Corcubión](adra_img/Fig16.jpg)  
+Foto 16. Muro en Corcubión
+
+![Foto 17. Pombal en Señores, Muxía](adra_img/Fig17.jpg)  
+Foto 17. Pombal en Señores, Muxía
 
 A lousa vertical que a pecha polo exterior, **fronte**, adoita ser lisa confundíndose
 co resto da fachada (foto 18 a), ou aparece salientada exenta do recebo (foto 18
@@ -300,16 +335,35 @@ exterior é sinxelo mais ás veces presenta unha pequena ampliación na entrada
 a xeito de vestíbulo e con menor frecuencia está enmarcada por unha moldura
 (foto 22 ).
 
-<Foto 18a. Frontes lisas>  
-<Foto 18b. Frontes salientadas>  
-<Foto 18c. Frontes ornadas>  
-<Foto 19. Topetes>  
-<Foto 20. Abeiros laterais>  
-<Foto 21a. Pousadoiros informes e lisos>  
-<Foto 21b. Pousadoiros moldurados>  
-<Foto 21c. Pousadoiros antropomorfos>  
-<Foto 21d. Pousadoiro ausente>  
-<Foto 22. Diferentes tipos de piqueiras>  
+![Foto 18a. Frontes lisas](adra_img/Fig18a.jpg)  
+Foto 18a. Frontes lisas
+
+![Foto 18b. Frontes salientadas](adra_img/Fig18b.jpg)  
+Foto 18b. Frontes salientadas
+
+![Foto 18c. Frontes ornadas](adra_img/Fig18c.jpg)  
+Foto 18c. Frontes ornadas
+
+![Foto 19. Topetes](adra_img/Fig19.jpg)  
+Foto 19. Topetes
+
+![Foto 20. Abeiros laterais](adra_img/Fig20.jpg)  
+Foto 20. Abeiros laterais
+
+![Foto 21a. Pousadoiros informes e lisos](adra_img/Fig21a.jpg)  
+Foto 21a. Pousadoiros informes e lisos
+
+![Foto 21b. Pousadoiros moldurados](adra_img/Fig21b.jpg)  
+Foto 21b. Pousadoiros moldurados
+
+![Foto 21c. Pousadoiros antropomorfos](adra_img/Fig21c.jpg)  
+Foto 21c. Pousadoiros antropomorfos
+
+![Foto 21d. Pousadoiro ausente](adra_img/Fig21d.jpg)  
+Foto 21d. Pousadoiro ausente
+
+![Foto 22. Diferentes tipos de piqueiras](adra_img/Fig22.jpg)  
+Foto 22. Diferentes tipos de piqueiras
 
 No que concirne á **altura** o criterio seguido para considerar alta ou baixa unha
 lacena, provén dos límites que sinala a lexislación galega para asentamentos apícolas
