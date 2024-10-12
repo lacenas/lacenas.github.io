@@ -75,7 +75,7 @@ cabe aclarar que unicamente o radio de cada sector é proporcional ao número de
 valores atopados nesa categoría (a superficie do sector aumenta desproporcionadamente
 co radio, non sendo por tanto representativa).
 
-<Figura 1. Histograma de orientación.>  
+[Figura 1. Histograma de orientación.](adra_img/Fig01.jpg)  
 
 Asemade, para as edificacións que servían de **soporte** das lacenas calculáronse
 as frecuencias absolutas e relativas das variables tipo de **soporte** (tipo de edificación),
