@@ -1,21 +1,21 @@
 # Apiarios na Costa da Morte: as lacenas
 
-Xesús García Devesa, David García San León e Manuel Vilar Álvarez
+XesÃºs GarcÃ­a Devesa, David GarcÃ­a San LeÃ³n e Manuel Vilar Ãlvarez
 
-“_No país das abellas todo está listo para a chegada da noite_”  
+â€œ_No paÃ­s das abellas todo estÃ¡ listo para a chegada da noite_â€  
 M. Mato Fondo
 
 *RESUMO:*
 
 Fose cando fose o inicio da apicultura na Costa da Morte, persisten diversas
-construcións ligadas á súa explotación, semellantes ás que se conservan no resto
-da Europa occidental, que posúen algunhas singularidades merecedoras de máis
-aprecio e recoñecemento. Desafortunadamente, a ignorancia, o deixamento, a
-dinámica da natureza ou a modernización do substrato en que se atopan, están 
-provocando a súa desaparición. Coas que aínda puidemos visitar fixemos unha 
-clasificación na que, partindo de dous tipos básicos, distinguimos oito variedades 
-en función da morfoloxía e do uso do espazo, afondando na análise das _lacenas_ 
-coa finalidade de salientar os matices diferenciais máis significativos. 
+construciÃ³ns ligadas Ã¡ sÃºa explotaciÃ³n, semellantes Ã¡s que se conservan no resto
+da Europa occidental, que posÃºen algunhas singularidades merecedoras de mÃ¡is
+aprecio e recoÃ±ecemento. Desafortunadamente, a ignorancia, o deixamento, a
+dinÃ¡mica da natureza ou a modernizaciÃ³n do substrato en que se atopan, estÃ¡n 
+provocando a sÃºa desapariciÃ³n. Coas que aÃ­nda puidemos visitar fixemos unha 
+clasificaciÃ³n na que, partindo de dous tipos bÃ¡sicos, distinguimos oito variedades 
+en funciÃ³n da morfoloxÃ­a e do uso do espazo, afondando na anÃ¡lise das _lacenas_ 
+coa finalidade de salientar os matices diferenciais mÃ¡is significativos. 
 
 *ABSTRACT:*
 
