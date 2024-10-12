@@ -219,29 +219,36 @@ Próximos ás lacenas están, entre outros, os _hornillos_ cántabros que descri
 de Cos (2009) ou os _hornos_ e _armarios_ que se atopan na depresión do río Ebro e
 que Robert Chevet (2010) chama por xunto, _ruchers construits a façade fermée_.
 
+<table>
+<tr><td>
 ![Foto 1. Alvariza de Lucas, Vimianzo](adra_img/F01.jpg)  
 Foto 1. Alvariza de Lucas, Vimianzo
-
-![Foto 3a. Grixoa, Vimianzo](adra_img/F03a.jpg)  
-Foto 3a. Grixoa, Vimianzo
-
-![Foto 4. Monte Faro, Vimianzo](adra_img/F04.jpg)  
-Foto 4. Monte Faro, Vimianzo
-
-![Foto 6a. Nichos, Cee](adra_img/F06a.jpg)  
-Foto 6a. Nichos, Cee
-
+</td><td>
 ![Foto 2. Alvariza de Sansobre, Vimianzo](adra_img/F02.jpg)  
 Foto 2. Alvariza de Sansobre, Vimianzo
-
+</td></tr>
+<tr><td>
+![Foto 3a. Grixoa, Vimianzo](adra_img/F03a.jpg)  
+Foto 3a. Grixoa, Vimianzo
+</td><td>
 ![Foto 3b. Muíño de Louredo, Dumbría](adra_img/F03b.jpg)  
 Foto 3b. Muíño de Louredo, Dumbría
-
+</td></tr>
+<tr><td>
+![Foto 4. Monte Faro, Vimianzo](adra_img/F04.jpg)  
+Foto 4. Monte Faro, Vimianzo
+</td><td>
 ![Foto 5. Pendello, Malpica](adra_img/F05.jpg)  
 Foto 5. Pendello, Malpica
-
+</td></tr>
+<tr><td>
+![Foto 6a. Nichos, Cee](adra_img/F06a.jpg)  
+Foto 6a. Nichos, Cee
+</td><td>
 ![Foto 6b. Nicho, Mazaricos](adra_img/F06b.jpg)  
 Foto 6b. Nicho, Mazaricos
+</td></tr>
+</table>
 
 ## Afondando nas lacenas
 
