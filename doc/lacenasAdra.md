@@ -258,12 +258,44 @@ Foto 6b. Nicho, Mazaricos
 
 ## Afondando nas lacenas
 
-<table>
+<table border=1>
 <thead></thead>
-<tr><td rowspan=8>Soporte</td></tr>
+<tr><td rowspan=8>Soporte</td><td>Casa</td><td>51,3%</td><td></td><td></td></tr>
+<tr><td rowspan=7>Construccións<br>adxetivas</td><td rowspan=7>48,7%</td><td>Corte</td><td>28,3%</td></tr>
+<tr>                                                                  <td>Cabanel</td><td>17,2%</td></tr>
+<tr>                                                                  <td>Muro</td><td>1,3%</td></tr>
+<tr>                                                                  <td>Hórreo</td><td>0,9%</td></tr>
+<tr>                                                                  <td>Muíño</td><td>0,6%</td></tr>
+<tr>                                                                  <td>Pombal</td><td>0,2%</td></tr>
+<tr>                                                                  <td>Propio</td><td>0,2%</td></tr>
+<tr><td rowspan=3>Fronte</td><td rowspan=3 colspan=2>            </td><td>Lisa</td><td>95,5%</td></tr>
+<tr>                                                                  <td>Salientada</td><td>4,0%</td></tr>
+<tr>                                                                  <td>Ornada</td><td>0,5%</td></tr>
+<tr><td rowspan=2>Topete</td><td rowspan=2 colspan=2>            </td><td>Si</td><td>55,7%</td></tr>
+<tr>                                                                  <td>Non</td><td>44,3%</td></tr>
+<tr><td rowspan=2>Abeiro lateral</td><td rowspan=2 colspan=2>    </td><td>Si</td><td>3,1%</td></tr>
+<tr>                                                                  <td>Non</td><td>96,9%</td></tr>
+
+<tr><td rowspan=6>Pousadoiro</td><td>Ausente</td><td>5,8%</td><td colspan=2></td></tr>
+<tr>           <td rowspan=2>Corrido</td><td rowspan=2>39,4%</td><td>Informe</td><td>93,6%</td></tr>
+<tr><td>Liso</td><td>6,4%</td></tr>
+<tr>           <td rowspan=3>Puntual</td><td rowspan=3>54,8%</td><td>Informe</td><td>39,8%</td></tr>
+<tr><td>Liso</td><td>42,0%</td></tr>
+<tr><td>Moldurado</td><td>18,2%</td></tr>
+
+<tr><td rowspan=4>Piqueira</td><td>Dobre</td><td>8,6%</td><td colspan=2></td></tr>
+<tr>           <td rowspan=3>Simple</td><td rowspan=3>91,4%</td><td>Sinxela</td><td>87,5%</td></tr>
+<tr><td>Vestibulada</td><td>11,1%</td></tr>
+<tr><td>Moldurada</td><td>1,4%</td></tr>
+
+<tr><td rowspan=2>Altura</td><td rowspan=2 colspan=2>            </td><td>Alta</td><td>56,1%</td></tr>
+<tr>                                                                  <td>Baixa</td><td>43,9%</td></tr>
+<tr><td rowspan=2>Uso</td><td rowspan=2 colspan=2>               </td><td>Si</td><td>3,5%</td></tr>
+<tr>                                                                  <td>Non</td><td>96,5%</td></tr>
 </table>
 
-<Táboa 2. Frecuencias relativas das variables>  
+Táboa 2. Frecuencias relativas das variables
+
 
 As 1.243 lacenas analizadas encóntranse en 670 soportes repartidos en 14 concellos
 da Costa da Morte cunha distribución moi desigual, tendo a máxima concentración
