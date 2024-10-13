@@ -122,7 +122,7 @@ o enxameado das abellas e que non pousaran lonxe, recomendación que fai Luís
 Méndez de Torres en 1586, no seu libro _Tratado breve de la cultivación y cura de
 las colmenas_: “Los arboles para este effecto son almendros, enzinas, azebuches,
 espinos: y han de estar desmochados, y que no se crien altos, porque com mas
-facilidad se pueda en ellos coger el enxambre [...]” (Henriques & alii 2010: 70). Estas
+facilidad se pueda en ellos coger el enxambre [...]” (Henriques & al. 2010: 70). Estas
 construcións, chamadas _alvarizas_, acostuman ser circulares, pero hainas tamén
 de planta ovalada, cadrada, irregular e ata lineais. A pluralidade morfolóxica e a
 relaxación nos criterios de seguridade (altura e grosor das paredes, espazos abertos...)
@@ -132,7 +132,7 @@ súas dimensións e maior dispersión xeográfica. Este espallamento fai que a d
 non sexa única: _abellariza, abellarizo, abelleira, alvar, alvariza, alviza,
 apiario, colmeal, colmear, corticeiro, cortín, oseiro_... (Rivas Quintas 2009). Son
 tamén as máis estudadas, amplamente descritas nos traballos de González Pérez
-(1989), Caamaño Suárez (2016), Ladra e Vidal (2010), Henriques & alii (2010).
+(1989), Caamaño Suárez (2016), Ladra e Vidal (2010), Henriques & al. (2010).
 
 ## Descrición das variedades
 
@@ -147,7 +147,19 @@ forzou a construción de abeiros que neutralizaran no posible o azoute de
 borrascas e vendavais; así pois, calquera que sexa a variedade dos apiarios terán
 as colmeas, na maioría dos casos, nalgún acubillo de pedra.
 
-<Táboa 1. Apiarios na Costa da Morte.>  
+<table border=1>
+<tr><th colspan=2>Tipos de recintos</th><th colspan=2>Morfoloxía e variedades</th><th>Uso do espazo</th><th>Exemplo</th></tr>
+<tr><td rowspan=6>De colmeas<br>mudables</td><td rowspan=6>Alvarizas</td><td rowspan=3>Cerradas</td><td>Paredes altas</td><td>Apícola</td><td>Alvariza de Lucas</td></tr>
+<tr><td rowspan=2>Paredes baixas</td><td>a Apícola</td><td>Alvariza de Sansobre</td></tr>
+<tr><td>b Compartido</td><td>Grixoa</td></tr>
+<tr><td rowspan=2>Abertas</td><td>Lineais</td><td>Compartido</td><td>Monte Faro</td></tr>
+<tr><td>Paredes con nichos</td><td>Compartido</td><td>Guimareu</td></tr>
+<tr><td>Pendellos</td><td>Recintos con cuberta</td><td>Apícola</td><td>Buño</td></tr>
+<tr><td rowspan=2>De colmeas<br>fixas</td><td>Casas das abellas</td><td colspan=2>Edificios exclusivos para abellas</td><td>Apícola</td><td>Alvariza do Cura</td></tr>
+<tr><td>Lacenas</td><td colspan=2>Construcións para usos diversos</td><td>Compartido</td><td>Agranzón</td></tr>
+</table>
+Táboa 1. Apiarios na Costa da Morte.
+
 
 **Alvarizas cerradas.** Teñen como principal característica seren de planta máis ou
 menos cadrada e as abellas protexidas baixo espazos cubertos por laxes de pedra
@@ -266,7 +278,25 @@ Foto 8a. Exterior de lacena
 ![Foto 8b. Interior de lacena](adra_img/F08b.jpg)  
 Foto 8b. Interior de lacena
 
-<Táboa 3. Distribución das lacenas nos concellos da Costa da Morte.>  
+<table>
+<tr><th>Concello</th><th>Lacenas</th><th>%</th></tr>
+<tr><td>Dumbría</td><td>288</td><td>23,17</td></tr>
+<tr><td>Muxía</td><td>261</td><td>21,00</td></tr>
+<tr><td>Vimianzo</td><td>197</td><td>15,85</td></tr>
+<tr><td>Mazaricos</td><td>155</td><td>12,47</td></tr>
+<tr><td>Cee</td><td>102</td><td>8,21</td></tr>
+<tr><td>Zas</td><td>60</td><td>4,83</td></tr>
+<tr><td>Carnota</td><td>52</td><td>4,18</td></tr>
+<tr><td>Fisterra</td><td>38</td><td>3,06</td></tr>
+<tr><td>Laxe</td><td>37</td><td>2,98</td></tr>
+<tr><td>Camariñas</td><td>22</td><td>1,77</td></tr>
+<tr><td>Cabana de Bergantiños</td><td>11</td><td>0,88</td></tr>
+<tr><td>Corcubión</td><td>10</td><td>0,80</td></tr>
+<tr><td>Ponteceso</td><td>7</td><td>0,56</td></tr>
+<tr><td>Malpica</td><td>3</td><td>0,24</td></tr>
+<tr><th></th><th>1243</th><th>100</th></tr>
+</table>
+Táboa 3. Distribución das lacenas nos concellos da Costa da Morte.
 
 Para completar a descrición, cabe engadir
 que a maioría das lacenas están mirando
