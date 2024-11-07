@@ -301,7 +301,7 @@ As 1.243 lacenas analizadas encóntranse en 670 soportes repartidos en 14 concel
 da Costa da Morte cunha distribución moi desigual, tendo a máxima concentración
 no municipio de Dumbría e a mínima no de Malpica de Bergantiños.
 
-![Foto 7. Casa das abellas, Vimianzo](adra_img/F7.jpg)  
+![Foto 7. Casa das abellas, Vimianzo](adra_img/F07.jpg)  
 Foto 7. Casa das abellas, Vimianzo
 
 ![Foto 8a. Exterior de lacena](adra_img/F08a.jpg)  
