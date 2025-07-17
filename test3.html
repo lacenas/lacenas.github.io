@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSV Dynamic Filter</title>
+
+  <!-- Preload lit to avoid Shoelace import error -->
+  <script type="module">
+    import * as lit from 'https://cdn.jsdelivr.net/npm/lit@2.8.0/+esm';
+    window.lit = lit;
+  </script>
+
+  <!-- Shoelace Components -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/shoelace.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/themes/light.css" />
+
+  <!-- Papaparse -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 1rem;
+      max-width: 480px;
+      margin: auto;
+    }
+    form sl-input,
+    form sl-select,
+    form sl-button {
+      margin-bottom: 1rem;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>Filter Data</h2>
+
+  <form id="filter-form">
+    <sl-input name="site" label="Site" placeholder="e.g. 3"></sl-input>
+
+    <sl-select id="country-select" name="country" label="Country" placeholder="Choose a country">
+      <!-- options will be generated dynamically -->
+    </sl-select>
+
+    <sl-button type="submit" variant="primary">Apply Filters</sl-button>
+  </form>
+
+  <script>
+    // Load CSV and extract unique countries
+    Papa.parse('data.csv', {
+      download: true,
+      header: true,
+      complete: function(results) {
+        const countries = [...new Set(results.data.map(row => row.country).filter(Boolean))];
+        const select = document.getElementById('country-select');
+
+        countries.forEach(c => {
+          const option = document.createElement('sl-option');
+          option.value = c;
+          option.textContent = c;
+          select.appendChild(option);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
