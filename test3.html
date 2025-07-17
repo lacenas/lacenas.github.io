@@ -2,19 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>CSV Dynamic Filter</title>
+  <title>CSV Filter Test</title>
 
-  <!-- Preload lit to avoid Shoelace import error -->
-  <script type="module">
-    import * as lit from 'https://cdn.jsdelivr.net/npm/lit@2.8.0/+esm';
-    window.lit = lit;
-  </script>
-
-  <!-- Shoelace Components -->
-  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/shoelace.js"></script>
+  <!-- ✅ Shoelace UMD version -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/themes/light.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/shoelace.umd.js"></script>
 
-  <!-- Papaparse -->
+  <!-- ✅ PapaParse -->
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
   <style>
@@ -33,20 +27,20 @@
   </style>
 </head>
 <body>
-  <h2>Filter Data</h2>
+  <h2>CSV-Based Filter</h2>
 
   <form id="filter-form">
     <sl-input name="site" label="Site" placeholder="e.g. 3"></sl-input>
 
     <sl-select id="country-select" name="country" label="Country" placeholder="Choose a country">
-      <!-- options will be generated dynamically -->
+      <!-- Options added via JS -->
     </sl-select>
 
     <sl-button type="submit" variant="primary">Apply Filters</sl-button>
   </form>
 
   <script>
-    // Load CSV and extract unique countries
+    // Load data.csv and populate the country dropdown
     Papa.parse('data/mydata.csv', {
       download: true,
       header: true,
