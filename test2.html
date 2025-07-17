@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Filtered CSV Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Shoelace UI -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/shoelace.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/themes/light.css" />
+
+  <!-- PapaParse -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 1rem; max-width: 800px; margin: auto; }
+    sl-input, sl-select, sl-button { margin-bottom: 1rem; display: block; width: 100%; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    @media (min-width: 600px) {
+      sl-input, sl-select, sl-button { width: 300px; display: inline-block; margin-right: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSV Filter Viewer</h1>
+
+  <!-- Shoelace form -->
+  <form id="filter-form">
+    <sl-input name="site" label="Site" placeholder="e.g. 3"></sl-input>
+    <sl-select name="country" label="Country" placeholder="Choose a country">
+      <sl-option value="US">United States</sl-option>
+      <sl-option value="UK">United Kingdom</sl-option>
+    </sl-select>
+    <sl-button type="submit" variant="primary">Apply Filters</sl-button>
+  </form>
+
+  <div id="output">Loading data...</div>
+
+  <script>
+    function getFiltersFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      return {
+        site: params.get("site"),
+        country: params.get("country")
+      };
+    }
+
+    function updateFormInputs(filters) {
+      if (filters.site) document.querySelector('sl-input[name="site"]').value = filters.site;
+      if (filters.country) document.querySelector('sl-select[name="country"]').value = filters.country;
+    }
+
+    function buildQueryString(filters) {
+      const params = new URLSearchParams();
+      if (filters.site) params.set("site", filters.site);
+      if (filters.country) params.set("country", filters.country);
+      return params.toString();
+    }
+
+    function matchesFilters(row, filters) {
+      return (!filters.site || row.site === filters.site) &&
+             (!filters.country || row.country === filters.country);
+    }
+
+    function renderTable(rows) {
+      const output = document.getElementById("output");
+      if (rows.length === 0) {
+        output.innerHTML = "<p>No results found.</p>";
+        return;
+      }
+      const headers = Object.keys(rows[0]);
+      const table = `
+        <table>
+          <thead><tr>${headers.map(h => `<th>${h}</th>`).join("")}</tr></thead>
+          <tbody>${rows.map(row => `
+            <tr>${headers.map(h => `<td>${row[h]}</td>`).join("")}</tr>`).join("")}
+          </tbody>
+        </table>
+      `;
+      output.innerHTML = table;
+    }
+
+    function loadCSVAndRender(filters) {
+      Papa.parse("data/mydata.csv", {
+        download: true,
+        header: true,
+        complete: function(results) {
+          const filtered = results.data.filter(row => matchesFilters(row, filters));
+          renderTable(filtered);
+        }
+      });
+    }
+
+    // Init
+    const filters = getFiltersFromURL();
+    updateFormInputs(filters);
+    loadCSVAndRender(filters);
+
+    // Handle form submission
+    document.getElementById("filter-form").addEventListener("submit", e => {
+      e.preventDefault();
+      const formData = new FormData(e.target);
+      const filters = {
+        site: formData.get("site"),
+        country: formData.get("country")
+      };
+      const query = buildQueryString(filters);
+      const newUrl = window.location.pathname + (query ? "?" + query : "");
+      history.replaceState(null, "", newUrl);
+      loadCSVAndRender(filters);
+    });
+  </script>
+</body>
+</html>
