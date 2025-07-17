@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>tailwind+papaparse CSV Filter</title>
+
+  <!-- ✅ Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ✅ PapaParse -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const select = document.getElementById('country');
+      const tableBody = document.getElementById('table-body');
+
+      Papa.parse('data/mydata.csv', {
+        download: true,
+        header: true,
+        complete: function(results) {
+          const data = results.data;
+          const countries = [...new Set(data.map(row => row.country).filter(Boolean))];
+          
+          countries.forEach(c => {
+            const opt = document.createElement('option');
+            opt.value = c;
+            opt.textContent = c;
+            select.appendChild(opt);
+          });
+
+          // Show all initially
+          showTable(data);
+
+          document.getElementById('filter-form').addEventListener('submit', e => {
+            e.preventDefault();
+            const site = document.getElementById('site').value.trim();
+            const country = select.value;
+
+            const filtered = data.filter(row => {
+              return (!site || row.site === site) &&
+                     (!country || row.country === country);
+            });
+
+            showTable(filtered);
+          });
+        }
+      });
+
+      function showTable(rows) {
+        tableBody.innerHTML = '';
+        rows.forEach(r => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td class="border px-2">${r.site}</td><td class="border px-2">${r.country}</td>`;
+          tableBody.appendChild(tr);
+        });
+      }
+    });
+  </script>
+</head>
+<body class="p-4 text-base max-w-md mx-auto">
+  <h2 class="text-xl font-bold mb-4">CSV Filter</h2>
+
+  <form id="filter-form" class="space-y-4">
+    <div>
+      <label class="block mb-1">Site</label>
+      <input type="text" id="site" class="border rounded p-2 w-full" placeholder="e.g. 3">
+    </div>
+
+    <div>
+      <label class="block mb-1">Country</label>
+      <select id="country" class="border rounded p-2 w-full">
+        <option value="">-- All --</option>
+      </select>
+    </div>
+
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">
+      Apply Filters
+    </button>
+  </form>
+
+  <table class="mt-6 w-full border">
+    <thead>
+      <tr><th class="border px-2">Site</th><th class="border px-2">Country</th></tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+</body>
+</html>
