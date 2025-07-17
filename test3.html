@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
   <title>CSV Filter Test</title>
 
-  <!-- ✅ Shoelace UMD version -->
+  <!-- Shoelace CSS + UMD JS (minified) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/themes/light.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/shoelace.umd.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/dist/shoelace.umd.min.js"></script>
 
-  <!-- ✅ PapaParse -->
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <!-- PapaParse -->
+  <script defer src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- Custom JS after DOM is ready -->
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      Papa.parse('data/mydata.csv', {
+        download: true,
+        header: true,
+        complete: function(results) {
+          const countries = [...new Set(results.data.map(row => row.country).filter(Boolean))];
+          const select = document.getElementById('country-select');
+
+          countries.forEach(c => {
+            const option = document.createElement('sl-option');
+            option.value = c;
+            option.textContent = c;
+            select.appendChild(option);
+          });
+        }
+      });
+    });
+  </script>
 
   <style>
     body {
@@ -33,29 +54,10 @@
     <sl-input name="site" label="Site" placeholder="e.g. 3"></sl-input>
 
     <sl-select id="country-select" name="country" label="Country" placeholder="Choose a country">
-      <!-- Options added via JS -->
+      <!-- Options will be injected here -->
     </sl-select>
 
     <sl-button type="submit" variant="primary">Apply Filters</sl-button>
   </form>
-
-  <script>
-    // Load data.csv and populate the country dropdown
-    Papa.parse('data/mydata.csv', {
-      download: true,
-      header: true,
-      complete: function(results) {
-        const countries = [...new Set(results.data.map(row => row.country).filter(Boolean))];
-        const select = document.getElementById('country-select');
-
-        countries.forEach(c => {
-          const option = document.createElement('sl-option');
-          option.value = c;
-          option.textContent = c;
-          select.appendChild(option);
-        });
-      }
-    });
-  </script>
 </body>
 </html>
