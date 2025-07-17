@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tailwind+papaparse CSV Filter example</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- PapaParse -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- LeafletJS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Top Tabs -->
+  <div class="bg-white shadow-md p-4 flex justify-center space-x-4">
+    <button id="tab-table" class="tab-btn font-semibold text-blue-600 border-b-2 border-blue-600">Table</button>
+    <button id="tab-map" class="tab-btn text-gray-600 hover:text-blue-600">Map</button>
+  </div>
+
+  <!-- Filters -->
+  <div class="p-4 space-y-4">
+    <input type="number" id="siteFilter" placeholder="Site #" class="p-2 border rounded w-full" />
+    <select id="countryFilter" class="p-2 border rounded w-full"></select>
+    <button onclick="applyFilters()" class="px-4 py-2 bg-blue-600 text-white rounded">Apply Filters</button>
+  </div>
+
+  <!-- Content -->
+  <div class="p-4">
+    <div id="tableView" class="space-y-2"></div>
+    <div id="mapView" class="hidden h-[500px] rounded shadow" style="height: 500px;"></div>
+  </div>
+
+  <script>
+    let fullData = [], filteredData = [];
+    const siteFilter = document.getElementById("siteFilter");
+    const countryFilter = document.getElementById("countryFilter");
+    const tableView = document.getElementById("tableView");
+    const mapView = document.getElementById("mapView");
+
+    // Load CSV
+    Papa.parse("data/mydata.csv", {
+      header: true,
+      download: true,
+      complete: function(results) {
+        fullData = results.data.filter(row => row.site); // remove empty rows
+        populateCountryFilter();
+        applyFilters(); // auto-apply if URL has params
+      }
+    });
+
+    function populateCountryFilter() {
+      const countries = [...new Set(fullData.map(row => row.country).filter(Boolean))];
+      countryFilter.innerHTML = '<option value="">-- Country --</option>' +
+        countries.map(c => `<option value="${c}">${c}</option>`).join('');
+    }
+
+    function applyFilters() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const siteVal = siteFilter.value || urlParams.get("site");
+      const countryVal = countryFilter.value || urlParams.get("country");
+
+      siteFilter.value = siteVal || "";
+      countryFilter.value = countryVal || "";
+
+      filteredData = fullData.filter(row => {
+        return (!siteVal || row.site === siteVal) &&
+               (!countryVal || row.country === countryVal);
+      });
+
+      showTable(filteredData);
+      showMap(filteredData);
+    }
+
+    function showTable(data) {
+      if (!data.length) {
+        tableView.innerHTML = "<p>No results</p>";
+        return;
+      }
+
+      const headers = Object.keys(data[0]);
+      const table = `
+        <table class="w-full table-auto border">
+          <thead class="bg-blue-100">
+            <tr>${headers.map(h => `<th class="border px-2 py-1">${h}</th>`).join('')}</tr>
+          </thead>
+          <tbody>
+            ${data.map(row => `
+              <tr class="odd:bg-white even:bg-gray-100">
+                ${headers.map(h => `<td class="border px-2 py-1">${row[h]}</td>`).join('')}
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+      tableView.innerHTML = table;
+    }
+
+    let map;
+    function showMap(data) {
+      mapView.innerHTML = "";
+      if (!map) {
+        map = L.map(mapView).setView([43, 1], 5);
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+      } else {
+        map.eachLayer((layer) => {
+          if (layer instanceof L.Marker) map.removeLayer(layer);
+        });
+      }
+
+      data.forEach(row => {
+        if (row.latitude && row.longitude) {
+          const marker = L.marker([parseFloat(row.latitude), parseFloat(row.longitude)])
+            .addTo(map)
+            .bindPopup(`<strong>${row.locality}</strong><br>(${row.country})`);
+        }
+      });
+    }
+
+    // Tab switching
+    document.getElementById("tab-table").onclick = () => {
+      tableView.classList.remove("hidden");
+      mapView.classList.add("hidden");
+      setActiveTab("tab-table");
+    };
+    document.getElementById("tab-map").onclick = () => {
+      tableView.classList.add("hidden");
+      mapView.classList.remove("hidden");
+      map.invalidateSize(); // ensure map renders correctly
+      setActiveTab("tab-map");
+    };
+
+    function setActiveTab(activeId) {
+      document.querySelectorAll(".tab-btn").forEach(btn => {
+        if (btn.id === activeId) {
+          btn.classList.add("font-semibold", "text-blue-600", "border-b-2", "border-blue-600");
+          btn.classList.remove("text-gray-600");
+        } else {
+          btn.classList.remove("font-semibold", "text-blue-600", "border-b-2", "border-blue-600");
+          btn.classList.add("text-gray-600");
+        }
+      });
+    }
+  </script>
+</body>
+</html>
