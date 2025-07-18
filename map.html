@@ -101,28 +101,36 @@
       tableView.innerHTML = table;
     }
 
-    let map;
-    function showMap(data) {
-      mapView.innerHTML = "";
-      if (!map) {
-        map = L.map(mapView).setView([43, 1], 5);
-        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-          attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-      } else {
-        map.eachLayer((layer) => {
-          if (layer instanceof L.Marker) map.removeLayer(layer);
-        });
-      }
+let map, markerGroup;
 
-      data.forEach(row => {
-        if (row.latitude && row.longitude) {
-          const marker = L.marker([parseFloat(row.latitude), parseFloat(row.longitude)])
-            .addTo(map)
-            .bindPopup(`<strong>${row.locality}</strong><br>(${row.country})`);
-        }
-      });
+function showMap(data) {
+  if (!map) {
+    map = L.map(mapView).setView([43, 1], 5);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+    markerGroup = L.layerGroup().addTo(map);
+  }
+
+  markerGroup.clearLayers(); // 👈 esto borra los marcadores anteriores
+
+  data.forEach(row => {
+    if (row.latitude && row.longitude) {
+      const marker = L.marker([parseFloat(row.latitude), parseFloat(row.longitude)])
+        .bindPopup(`<strong>${row.locality}</strong><br>(${row.country})`);
+      markerGroup.addLayer(marker);
     }
+  });
+
+  // Ajustar la vista si hay resultados
+  if (data.length > 0) {
+    const bounds = markerGroup.getBounds();
+    if (bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [50, 50] });
+    }
+  }
+}
+
 
     // Tab switching
     document.getElementById("tab-table").onclick = () => {
