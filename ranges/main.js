@@ -2,10 +2,10 @@
 //const TAR_URL = "https://sandbox.zenodo.org/records/387505/files/zenodo_indexed_files.tar?download=1";      // change to your TAR file URL
 //const TAR_URL = "simple_proxy.php?url=" 
 //                + encodeURIComponent("https://sandbox.zenodo.org/records/387505/files/zenodo_indexed_files.tar?download=1");
-const TAR_URL = "https://raw.githubusercontent.com/lacenas/lacenas.github.io/main/test/zenodo_indexed_files.tar";      // change to your TAR file URL
+const TAR_URL = "zenodo_indexed_files.tar";      // change to your TAR file URL
 console.log(TAR_URL);
 //const INDEX_URL = "index.json";          // change to your index.json URL
-const INDEX_URL = "https://raw.githubusercontent.com/lacenas/lacenas.github.io/main/test/tar_index.json";          // change to your index.json URL
+const INDEX_URL = "tar_index.json";          // change to your index.json URL
 
 
 
